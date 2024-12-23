@@ -1,0 +1,168 @@
+/* General styles */
+body {
+  font-family: 'Urbanist', sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #10385C;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #FFFFFF;
+  margin: 0 30px;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Styles */
+section {
+  padding: 60px 0;
+}
+
+#inicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+#inicio .text {
+  max-width: 50%;
+}
+
+#inicio .cta-btn {
+  background-color: #10385C;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#inicio .video {
+  width: 45%;
+}
+
+/* Testimonial Section */
+#clientes {
+  background-color: #A7A3AD;
+  text-align: center;
+}
+
+#clientes img {
+  max-width: 100px;
+  margin: 0 10px;
+}
+
+/* Portfolio Section */
+#portafolio {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+#portafolio .project {
+  display: inline-block;
+  width: 45%;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #10385C;
+}
+
+/* Packages Section */
+#paquetes {
+  background-color: #A7A3AD;
+  text-align: center;
+}
+
+#paquetes .package {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #556272;
+  color: #FFFFFF;
+}
+
+#paquetes .highlight {
+  background-color: #748064;
+}
+
+/* Team Section */
+#equipo {
+  background-color: #A7A3AD;
+  text-align: center;
+}
+
+#equipo .member {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+}
+
+#equipo img {
+  border-radius: 50%;
+  width: 50% ;
+	height: auto;
+}
+
+/* Contact Section */
+#contacto {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contacto form {
+  width: 45%;
+}
+
+#contacto input, #contacto textarea, #contacto button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#contacto button {
+  background-color: #10385C;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
